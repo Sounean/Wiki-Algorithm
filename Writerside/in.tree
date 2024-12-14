@@ -3,8 +3,58 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Instance Name"
-                 start-page="starter.md">
+                 name="Sounean's Algorithm Training Camp"
+                 start-page="starter.topic">
 
-    <toc-element topic="starter.md"/>
+    <toc-element topic="starter.topic"/>
+
+    <toc-element toc-title="数据结构">
+        <toc-element toc-title="数组">
+
+        </toc-element>
+        <toc-element toc-title="字符串">
+
+        </toc-element>
+        <toc-element toc-title="链表">
+
+        </toc-element>
+        <toc-element toc-title="哈希表">
+
+        </toc-element>
+        <toc-element toc-title="双指针法">
+
+        </toc-element>
+        <toc-element toc-title="栈与队列">
+
+        </toc-element>
+        <toc-element toc-title="二叉树">
+
+        </toc-element>
+    </toc-element>
+
+    <toc-element toc-title="算法">
+        <toc-element toc-title="必备算法">
+
+        </toc-element>
+        <toc-element toc-title="回溯算法">
+
+        </toc-element>
+        <toc-element toc-title="贪心算法">
+
+        </toc-element>
+        <toc-element toc-title="动态规划">
+
+        </toc-element>
+    </toc-element>
+
+
+    <toc-element toc-title="每周作业">
+        <toc-element toc-title="2024_12_15">
+
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="更新日志"/>
+
+
+
 </instance-profile>
