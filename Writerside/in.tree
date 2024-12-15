@@ -51,9 +51,10 @@
 
 
     <toc-element toc-title="每周作业">
-        <toc-element toc-title="2024_12_15">
+<!--        <toc-element toc-title="2024_12_15">-->
 
-        </toc-element>
+<!--        </toc-element>-->
+        <toc-element topic="2024-12-15.md"/>
     </toc-element>
     <toc-element toc-title="更新日志"/>
 
