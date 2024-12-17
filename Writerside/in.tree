@@ -13,9 +13,10 @@
     </toc-element>
 
     <toc-element toc-title="数据结构">
-<!--        <toc-element toc-title="数组">-->
-
-<!--        </toc-element>-->
+        <toc-element toc-title="数组">
+            <toc-element topic="1-数组基础.md"/>
+            <toc-element topic="2-二分查找.md"/>
+        </toc-element>
         <toc-element topic="String_README.md">
             <toc-element topic="1.字符数组.md"/>
             <toc-element topic="2.字符串详解.md"/>
@@ -41,12 +42,14 @@
     <toc-element toc-title="算法">
         <toc-element toc-title="必备算法">
 
+            <toc-element topic="递推算法.md"/>
         </toc-element>
         <toc-element toc-title="回溯算法">
 
         </toc-element>
         <toc-element toc-title="贪心算法">
 
+            <toc-element topic="贪心算法.md"/>
         </toc-element>
         <toc-element toc-title="动态规划">
 
