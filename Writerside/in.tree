@@ -25,6 +25,12 @@
         <toc-element toc-title="链表">
 
         </toc-element>
+
+        <toc-element toc-title="图论">
+
+            <toc-element topic="图论的理论基础.md"/>
+        </toc-element>
+
         <toc-element toc-title="哈希表">
 
         </toc-element>
@@ -46,6 +52,10 @@
         </toc-element>
         <toc-element toc-title="回溯算法">
 
+        </toc-element>
+        <toc-element toc-title="图算法">
+
+            <toc-element topic="深度优先搜索-DFS.md"/>
         </toc-element>
         <toc-element toc-title="贪心算法">
 
