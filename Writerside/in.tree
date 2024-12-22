@@ -59,6 +59,7 @@
 
 <!--        </toc-element>-->
         <toc-element topic="2024-12-15.md"/>
+        <toc-element topic="2024-12-22_python.md"/>
     </toc-element>
     <toc-element toc-title="更新日志"/>
     <toc-element topic="updateLog.md"/>
