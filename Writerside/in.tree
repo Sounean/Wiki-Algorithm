@@ -47,7 +47,10 @@
 
     <toc-element toc-title="算法">
         <toc-element toc-title="必备算法">
+            <toc-element toc-title="排序算法">
 
+            </toc-element>
+            <toc-element topic="冒泡算法.md"/>
             <toc-element topic="递归算法.md"/>
             <toc-element topic="递推算法.md"/>
         </toc-element>
