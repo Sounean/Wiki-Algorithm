@@ -75,6 +75,7 @@
     <toc-element toc-title="每周作业">
         <toc-element toc-title="C++">
             <toc-element topic="2024-12-15.md"/>
+            <toc-element topic="2024-12-29.md"/>
         </toc-element>
         <toc-element toc-title="python">
             <toc-element topic="2024-12-22_python.md"/>
