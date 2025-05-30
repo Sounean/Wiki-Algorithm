@@ -17,7 +17,8 @@ while (left <= right) 要使用 <= ，因为left == right是有意义的，所�
 if (nums[middle] > target) right 要赋值为 middle - 1，因为当前这个nums[middle]一定不是target，那么接下来要查找的左区间结束下标位置就是 middle - 1
 
 我们以第一次循环为例来作图理解:
-![Writerside/images/数据结构/数组/数组二分查找/数组二分查找01.png](数组二分查找01.png)
+
+![数组二分查找01.png](数组二分查找01.png)
 
 ```C++
 // 版本一
@@ -52,6 +53,7 @@ public:
 while (left < right)，这里使用 < ,因为left == right在区间[left, right)是没有意义的
 if (nums[middle] > target) right 更新为 middle，因为当前nums[middle]不等于target，去左区间继续寻找，而寻找区间是左闭右开区间，所以right更新为middle，即：下一个查询区间不会去比较nums[middle]
 在数组：1,2,3,4,7,9,10中查找元素2，如图所示：（注意和方法一的区别）
+
 ![数组二分查找02.png](数组二分查找02.png)
 
 ```C++
