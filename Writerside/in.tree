@@ -22,6 +22,7 @@
             <toc-element topic="运算符.md"/>
             <toc-element topic="指针.md"/>
             <toc-element topic="结构体.md"/>
+            <toc-element topic="易错点.md"/>
             <toc-element toc-title="STL">
                 <toc-element topic="STL.md"/>
                 <toc-element toc-title="容器">
@@ -29,9 +30,8 @@
                 </toc-element>
             </toc-element>
             <toc-element toc-title="GESP考级">
-
+                <toc-element topic="一级.md"/>
             </toc-element>
-            <toc-element topic="一级.md"/>
         </toc-element>
     </toc-element>
 
@@ -49,27 +49,18 @@
             <toc-element topic="1.字符数组.md"/>
             <toc-element topic="2.字符串详解.md"/>
         </toc-element>
-
         <toc-element toc-title="链表">
-
         </toc-element>
-
         <toc-element toc-title="图论">
-
             <toc-element topic="图论的理论基础.md"/>
         </toc-element>
-
         <toc-element toc-title="哈希表">
-
         </toc-element>
         <toc-element toc-title="双指针法">
-
         </toc-element>
         <toc-element toc-title="栈与队列">
-
         </toc-element>
         <toc-element toc-title="二叉树">
-
         </toc-element>
     </toc-element>
 
@@ -79,26 +70,18 @@
                 <toc-element topic="选择排序算法.md"/>
                 <toc-element topic="冒泡算法.md"/>
             </toc-element>
-
             <toc-element topic="递归算法.md"/>
             <toc-element topic="递推算法.md"/>
         </toc-element>
         <toc-element toc-title="回溯算法">
-
         </toc-element>
         <toc-element toc-title="图算法">
-
             <toc-element topic="深度优先搜索-DFS.md"/>
         </toc-element>
-        <toc-element toc-title="贪心算法">
-
-            <toc-element topic="贪心算法.md"/>
-        </toc-element>
+        <toc-element topic="贪心算法.md"/>
         <toc-element toc-title="动态规划">
-
         </toc-element>
     </toc-element>
-
 
     <toc-element toc-title="每周作业">
         <toc-element toc-title="C++">
@@ -110,10 +93,10 @@
             <toc-element topic="2024_12_22_python.md"/>
             <toc-element topic="2024_12_29_python.md"/>
         </toc-element>
-
     </toc-element>
-    <toc-element toc-title="更新日志"/>
-    <toc-element topic="updateLog.md"/>
-
+    
+    <toc-element toc-title="更新日志">
+        <toc-element topic="updateLog.md"/>
+    </toc-element>
 
 </instance-profile>
