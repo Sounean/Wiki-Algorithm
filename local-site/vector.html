@@ -1,0 +1,46 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat"><html lang="en-US" data-colors-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex">  <meta name="built-on" content="2025-05-30T09:41:15.1136442"><meta name="build-number" content="${buildNumber}">       <title>Vector(向量) | Sounean's Algorithm Training Camp</title><script id="virtual-toc-data" type="application/json">[{"id":"1","level":0,"title":"1.什么是向量","anchor":"#1"},{"id":"2-vector","level":0,"title":"2.vector的常见函数","anchor":"#2-vector"},{"id":"3","level":0,"title":"3.常见的原始实例","anchor":"#3"}]</script><link href="https://resources.jetbrains.com/storage/writerside/v5.14.0/app.css" rel="stylesheet">   <link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><link rel="manifest" href="https://jetbrains.com/site.webmanifest"><link rel="mask-icon" href="https://jetbrains.com/safari-pinned-tab.svg" color="#000000"><meta name="msapplication-TileColor" content="#000000"/><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"/><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"/><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"/><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"/><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"/>  <meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Vector(向量) | Sounean's Algorithm Training Camp"/><meta property="og:description" content=""/><meta property="og:image" content=""/><meta property="og:site_name" content="Sounean's Algorithm Training Camp Help"/><meta property="og:type" content="website"/><meta property="og:locale" content="en_US"/><meta property="og:url" content="vector.html"/><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Vector(向量) | Sounean's Algorithm Training Camp"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebPage", "@id": "vector.html#webpage", "url": "vector.html", "name": "Vector(向量) | Sounean's Algorithm Training Camp", "description": "", "image": "", "inLanguage":"en-US" }</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json"> { "@type": "WebSite", "@id": "/#website", "url": "/", "name": "Sounean's Algorithm Training Camp Help" }</script><!-- End Schema.org --> <!-- Mermaid light/dark themes -->  <link rel="stylesheet" type="text/css" href="mermaid.css">  </head>    <body data-id="Vector-向量" data-main-title="Vector(向量)" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}"  data-template="article"  data-breadcrumbs="基础///C++///STL///容器"  >   <div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Sounean's Algorithm Training Camp  Help</h3><div class="shortcuts-switcher"><label for="switch-shortcuts">Keymap:</label><select class="select _shortcuts" height="1" id="switch-shortcuts">  </select></div><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Vector-向量" id="Vector-向量.md"  >Vector(向量)</h1><section class="chapter"  ><h2 id="1" data-toc="1"  >1.什么是向量</h2><p id="b1b58002_965">向量(vector)是一个顺序容器(Sequence Container)，它能够存放各种类型的对象。 可以简单的认为，向量是一个能够存放任意类型的动态数组(元素个数可变)。</p><p id="b1b58002_966">思考： 数组能用的他都能用，数组不能用的，像数组的大小一开始就要被确定，向量能改边，这表示向量能随意增加删除元素，完全不用顾虑。 这么一看完全比数组好啊？数组还不能动态，他能动态，那还要数组干啥？ <br/> 原因：因为性能考虑：虽然vector提供了更多的功能，但由于需要处理动态内存分配和大小调整的问题，可能会带来一些额外的开销。然而，在大多数应用场景下，这种差异是可以忽略不计的。</p><p id="b1b58002_968">那什么时候用数组什么时候用向量？ <br/> 选择数组还是vector取决于具体的需求。如果你知道数据集的大小不会变化，并且希望获得最佳性能，可以选择数组。相反，如果你需要一个能够根据需要增长或缩小的数据结构， 或者想要利用STL提供的丰富功能，那么vector将是更好的选择。在现代C++编程实践中，除非有特定的理由要使用内置数组，否则推荐使用vector或其他标准库容器， 因为它们提供了更好的灵活性和安全性。</p></section><section class="chapter"  ><h2 id="2-vector" data-toc="2-vector"  >2.vector的常见函数</h2><p id="b1b58002_970">函数名 描述<br/> size() 返回vector中元素的数量。 <br/> empty() 判断vector是否为空（无元素），返回布尔值。 <br/> swap() 交换两个同类型向量的数据. <br/></p><p id="b1b58002_975">push_back(元素) 在vector的末尾添加一个元素。 <br/> insert(pos, val) 在指定位置pos插入一个值为val的新元素。 <br/></p><p id="b1b58002_978">pop_back() 移除vector末尾的一个元素。 <br/> erase(pos) 移除位于pos位置的单个元素或范围内的元素。 <br/> clear() 清空vector中的所有元素，使其变为空,size()变成0。 <br/></p><p id="b1b58002_982">at(index) 访问vector中指定位置的元素，并提供边界检查（如果索引越界会抛出异常）。 <br/> 向量.[i] 取向量下标为i的元素<br/> front() 返回取向量第一个元素。 <br/> back() 返回取向量最后一个元素。 <br/></p><p id="b1b58002_987">begin() 返回指向vector首元素的迭代器。 <br/> rbegin() 反向迭代器，指向最后一个元素. <br/> end() 返回指向vector末尾之后位置的迭代器。 <br/> resize(new_size) 改变vector的大小到new_size，如果新的大小更大，则用默认值填充新位置；如果更小，则截断多余的元素。 <br/></p><p id="b1b58002_992">对应于数组，要注意:向量的大小是可变的，开始时向量为空，随着不断插入元素，向量自动申请空间，容量变大。 <br/> 注意学会使用:sort()、reverse()等函数对vector进行排序、逆序等操作</p></section><section class="chapter"  ><h2 id="3" data-toc="3"  >3.常见的原始实例</h2><section class="chapter"  ><h3 id="3-1-vector" data-toc="3-1-vector"  >3.1. vector的存储和遍历</h3><p id="b1b58002_994">根据不同的使用场景，有4种vector的常见方法： <br/> (1)vector():创建一个空 vector<br/> (2)vector(n):创建一个元素个数为n的 vector<br/> (3)vector(n,t):创建一个元素个数为n且值为t的 vector<br/> (4)vector(begin,end):复制[begin,end)区间内另一个数组的元素到 vector中</p><div class="code-block" data-lang="cpp"         >
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+void print(vector&lt;int&gt; v){
+	// 遍历vector中的元素
+	for(int i=0;i&lt;v.size();i++){
+		cout &lt;&lt; v[i] &lt;&lt; endl;
+	} 
+	cout &lt;&lt; endl;
+}
+
+int main(){
+	// 定义方法1：定义vector存储int类型的变量
+	vector&lt;int&gt; v;
+	
+	cout &lt;&lt; v.size() &lt;&lt; endl;
+	/*
+	// 注意：常见错误，vector&lt;int&gt;v定义一个空vector，不可以用下标0和1来访问元素 
+		v[0] = 10;
+		v[1] = 20;
+	*/
+	cout &lt;&lt; v.size() &lt;&lt;	endl; 
+	// 添加元素进vector 
+	v.push_back(10);
+	v.push_back(20);
+	v.push_back(30);
+	cout &lt;&lt; v.size() &lt;&lt; endl; 
+	print(v);
+	
+	// 定义方法2:定义一个长度为5的vector，默认值为0
+	vector&lt;int&gt; v2(5);
+	// 定义方法3:义一个长度为5的vector，默认值为80
+	vector&lt;int&gt; v3(5,80); 
+	int a[] = {10,20,30,40,50};
+	// 定义方法4:使用数组初始化vector
+//	sizeof();	// 计算变量占用字节数
+	sizeof(a)/sizeof(int);	// 计算数组实际长度
+	cout &lt;&lt;  sizeof(a)/sizeof(int)  &lt;&lt; endl;
+	vector&lt;int&gt; v4(a,a+sizeof(a)/sizeof(int));
+	v4.push_back(10);
+	print(v);
+	 
+	return 0;
+}
+</div></section></section><div class="last-modified"> Last modified: 30 五月 2025</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom">  <a class="navigation-links__prev" href="stl.html">STL</a>   <a class="navigation-links__next" href=".html">一级</a>  </div></article><div id="disqus_thread"></div></div></section></main></div>  <script src="https://resources.jetbrains.com/storage/writerside/v5.14.0/app.js"></script></body></html>

@@ -11,18 +11,18 @@
     <toc-element toc-title="基础">
         <toc-element toc-title="Python">
             <toc-element toc-title="序列">
-                <toc-element topic="Python-List.md"/>
-                <toc-element topic="Python-Tuple.md"/>
-                <toc-element topic="Python-Dict.md"/>
-                <toc-element topic="Python-Set.md"/>
+                <toc-element topic="1-列表.md"/>
+                <toc-element topic="2-元组.md"/>
+                <toc-element topic="3-字典.md"/>
+                <toc-element topic="4-集合.md"/>
             </toc-element>
-            <toc-element topic="Python-Function.md"/>
+            <toc-element topic="函数.md"/>
         </toc-element>
         <toc-element toc-title="C++">
-            <toc-element topic="CPP-Operator.md"/>
-            <toc-element topic="CPP-Pointer.md"/>
-            <toc-element topic="CPP-Struct.md"/>
-            <toc-element topic="CPP-CommonMistakes.md"/>
+            <toc-element topic="运算符.md"/>
+            <toc-element topic="指针.md"/>
+            <toc-element topic="结构体.md"/>
+            <toc-element topic="易错点.md"/>
             <toc-element toc-title="STL">
                 <toc-element topic="STL.md"/>
                 <toc-element toc-title="容器">
@@ -30,29 +30,29 @@
                 </toc-element>
             </toc-element>
             <toc-element toc-title="GESP考级">
-                <toc-element topic="GESP-Level1.md"/>
+                <toc-element topic="一级.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
 
     <toc-element toc-title="算法中的数学">
-        <toc-element topic="High-Precision.md"/>
-        <toc-element topic="Base-Conversion.md"/>
+        <toc-element topic="高精度运算.md"/>
+        <toc-element topic="进制转换.md"/>
     </toc-element>
 
     <toc-element toc-title="数据结构">
         <toc-element toc-title="数组">
-            <toc-element topic="Array-Basic.md"/>
-            <toc-element topic="Binary-Search.md"/>
+            <toc-element topic="1-数组基础.md"/>
+            <toc-element topic="2-二分查找.md"/>
         </toc-element>
         <toc-element topic="String_README.md">
-            <toc-element topic="Char-Array.md"/>
-            <toc-element topic="String-Detail.md"/>
+            <toc-element topic="1.字符数组.md"/>
+            <toc-element topic="2.字符串详解.md"/>
         </toc-element>
         <toc-element toc-title="链表">
         </toc-element>
         <toc-element toc-title="图论">
-            <toc-element topic="Graph-Theory-Basic.md"/>
+            <toc-element topic="图论的理论基础.md"/>
         </toc-element>
         <toc-element toc-title="哈希表">
         </toc-element>
@@ -67,18 +67,18 @@
     <toc-element toc-title="算法">
         <toc-element toc-title="必备算法">
             <toc-element toc-title="排序算法">
-                <toc-element topic="Selection-Sort.md"/>
-                <toc-element topic="Bubble-Sort.md"/>
+                <toc-element topic="选择排序算法.md"/>
+                <toc-element topic="冒泡算法.md"/>
             </toc-element>
-            <toc-element topic="Recursive-Algorithm.md"/>
-            <toc-element topic="Recurrence-Algorithm.md"/>
+            <toc-element topic="递归算法.md"/>
+            <toc-element topic="递推算法.md"/>
         </toc-element>
         <toc-element toc-title="回溯算法">
         </toc-element>
         <toc-element toc-title="图算法">
             <toc-element topic="深度优先搜索-DFS.md"/>
         </toc-element>
-        <toc-element topic="Greedy-Algorithm.md"/>
+        <toc-element topic="贪心算法.md"/>
         <toc-element toc-title="动态规划">
         </toc-element>
     </toc-element>
