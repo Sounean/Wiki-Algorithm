@@ -9,19 +9,19 @@
         <description>行百里者半九十.</description>
 
         <spotlight>
-            <a href="starter.topic" type="start" summary="25年一月底实现能自行刷middle题">时间</a>
-            <a href="starter.topic" type="library" summary="掌握数组、链表、哈希表、字符串、双指针法、栈与队列">知识点</a>
+            <a href="#time-goal" type="start" summary="25年一月底实现能自行刷middle题">时间</a>
+            <a href="#knowledge-points" type="library" summary="掌握数组、链表、哈希表、字符串、双指针法、栈与队列">知识点</a>
         </spotlight>
 
         <primary>
             <title>工具</title>
-            <a type="development" summary="Dev-CPP">工具掌握</a>
-            <a type="top" summary="每周任务每周毕，下周检查；增加代码可读性">习惯</a>
+            <a href="#tools" type="development" summary="Dev-CPP">工具掌握</a>
+            <a href="#habits" type="top" summary="每周任务每周毕，下周检查；增加代码可读性">习惯</a>
         </primary>
 
         <secondary>
             <title>学习之外</title>
-            <a type="check-list" summary="记录">错题实时记录且每周回顾</a>
+            <a href="#review" type="check-list" summary="记录">错题实时记录且每周回顾</a>
         </secondary>
 
         <misc/>
@@ -116,7 +116,7 @@
 <!--            <a href="https://jb.gg/WRS_Slack">public Slack workspace</a>.-->
 <!--            Before you do, please read our <a-->
 <!--                    href="https://www.jetbrains.com/help/writerside/writerside-code-of-conduct.html">Code of conduct</a>.-->
-<!--            We assume that you’ve read and acknowledged it before joining.</p>-->
+<!--            We assume that you've read and acknowledged it before joining.</p>-->
 <!--        <p>You can also always email us at <a href="mailto:writerside@jetbrains.com">writerside@jetbrains.com</a>.</p>-->
 <!--    </chapter>-->
 <!--    <seealso>-->
