@@ -43,6 +43,7 @@
     <toc-element toc-title="算法题库">
         <toc-element toc-title="基础">
             <toc-element topic="P1518.md"/>
+            <toc-element topic="P1067.md"/>
         </toc-element>
     </toc-element>
 
