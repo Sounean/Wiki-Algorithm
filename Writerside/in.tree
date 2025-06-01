@@ -42,16 +42,22 @@
 
     <toc-element toc-title="算法题库">
         <toc-element toc-title="基础">
-             <toc-element toc-title="1.模拟与高精度">
-                 <toc-element toc-title="1.1.模拟方法实例">
-                     <toc-element topic="P1042.md"/>
-                     <toc-element topic="P2670.md"/>
-                 </toc-element>
-                 <toc-element toc-title="1.2.高精度运算">
-
-                 </toc-element>
-                <toc-element topic="P1518.md"/>
-                <toc-element topic="P1067.md"/>
+            <toc-element toc-title="1.常用基础">
+                <toc-element toc-title="1.1.字符串与文件">
+                    <toc-element topic="P6565.md"/>
+                </toc-element>
+            </toc-element>
+            <toc-element toc-title="2.模拟与高精度">
+             <toc-element toc-title="2.1.模拟方法实例">
+                 <toc-element topic="P1042.md"/>
+                 <toc-element topic="P2670.md"/>
+             </toc-element>
+             <toc-element toc-title="2.2.高精度运算">
+                 <toc-element topic="P1601.md"/>
+                 <toc-element topic="P2142.md"/>
+             </toc-element>
+            <toc-element topic="P1518.md"/>
+            <toc-element topic="P1067.md"/>
             </toc-element>
         </toc-element>
     </toc-element>

@@ -15,7 +15,8 @@
 (1)getline(cin,s):读入一个字符串(直到换行)，可以含空格；<br/>
 (2)cin:读入一个字符串，不能含空格;<br/>
 <warning>注:如果用while循环，如while(cin >> s)的话，必须得用ctrl+z或者ctrl+d来停止循环。</warning>
-(3)s.size():求字符串s的长度;<br/>
+
+(3)s.size():求字符串s的长度; <br/>
 (4)s[下标i]:获取字符串的某个下标对应的字符;<br/>
 (5)掌握 string 的+的用法，注意string使用下标常见的错误:<br/>
 仅定义string s1;的话，s1是一个长度为0的字符串！！s1[0],s1[1]都会报错;<br/>
@@ -68,7 +69,48 @@ stof(s):将字符串s转换为对应的float<br/>
 to_string(int n):将整数n转换为字符串<br/>
 to_string(double a):将 double 型的a转为字符串，转换成的字符串小数点后有
 
+# 四、字符串常见错误
+假设有那么一个场景：我先输入一个整数n，然后再输入n个字符串，我如下述代码去写，会有问题：
+```C++
+#include <string>
+#include <iostream>
+using namespace std;
+int main(){
+    int n = 0;
+    string str = "";
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        getline(cin,str);
+    }
+    return 0;
+}
+```
+假设我n输入的是4,然后会发现，再往下只能再输入4-1,即3行，程序就结束了。再怎么debug发现都只能输入3行，这是因为:
+```C++
+1.用户首先使用 cin >> n; 读取整数n4。
+2.然后进入循环，循环n次（即4次），每次循环中getline(cin,str);读取字符串
+```
+问题可能在于：在读取n之后，输入缓冲区中残留了一个换行符（用户输入4后按下的回车键）。当第一次调用getline时，它读取到的是这个换行符，因此得到一个空行，
+然后紧接着的第二个getline读取第一行实际内容，这样循环两次，实际上只读取了3行输入（包括第一次的空行和后续3行），而不是预期的4行。
 
+即，当混合使用cin>>和getline时，cin>>会留下换行符在缓冲区，而getline会立即读取到这个换行符，导致读取空行。
+
+解决方案：在cin>>n之后，使用cin.ignore()清除缓冲区中的换行符，然后后面的getline就能正常读取下一行。
+```C++
+#include <string>
+#include <iostream>
+using namespace std;
+int main(){
+    int n = 0;
+    string str = "";
+    cin >> n;
+    cin.ignore();
+    for (int i = 0; i < n; ++i) {
+        getline(cin,str);
+    }
+    return 0;
+}
+```
 
 
 
