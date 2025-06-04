@@ -79,6 +79,7 @@
                 <toc-element topic="Bubble-Sort.md"/>
                 <toc-element topic="Insertion-Sort.md"/>
                 <toc-element topic="Quick-Sort.md"/>
+                <toc-element topic="Skill-Sort.md"/>
             </toc-element>
 
 <!--            <toc-element toc-title="暴力枚举"></toc-element>-->
@@ -123,10 +124,6 @@
                     <toc-element topic="P2670.md"/>
                     <toc-element topic="P3613.md"/>
                 </toc-element>
-                <toc-element toc-title="排序">
-                    <toc-element topic="P1271.md"/>
-                    <toc-element topic="P1923.md"/>
-                </toc-element>
                 <toc-element toc-title="2.2.高精度运算">
                     <toc-element topic="P1601.md"/>
                     <toc-element topic="P2142.md"/>
@@ -135,6 +132,17 @@
                 </toc-element>
                 <toc-element topic="P1518.md"/>
                 <toc-element topic="P1067.md"/>
+            </toc-element>
+            <toc-element toc-title="排序">
+                <toc-element topic="P1271.md"/>
+                <toc-element topic="P1923.md"/>
+                <toc-element topic="P1093.md"/>
+                <toc-element topic="P2676.md"/>
+                <toc-element topic="P1116.md"/>
+                <toc-element topic="P1152.md"/>
+                <toc-element topic="P1068.md"/>
+                <toc-element topic="P5143.md"/>
+                <toc-element topic="P1104.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
