@@ -144,6 +144,16 @@
                 <toc-element topic="P5143.md"/>
                 <toc-element topic="P1104.md"/>
             </toc-element>
+            <toc-element toc-title="枚举">
+                <toc-element topic="P1706.md"/>
+                <toc-element topic="ABC201.md"/>
+                <toc-element topic="LCouSuanShi.md"/>
+                <toc-element topic="LDaiFenShu.md"/>
+                <toc-element topic="Poj1256.md"/>
+            </toc-element>
+            <toc-element toc-title="递推与递归">
+
+            </toc-element>
         </toc-element>
     </toc-element>
 
