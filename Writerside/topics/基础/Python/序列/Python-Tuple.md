@@ -1,0 +1,52 @@
+# Python-Tuple
+
+了解了列表后，可以将列表的常用操作都往元组上套，但是！！切记元组他有单独的性质，即他的元素不可变
+## 常用操作：
+```python
+# 1.元组的创建
+# 使用圆括号创建元组
+my_tuple = (1, 2, 3)
+print(my_tuple)  # 输出 (1, 2, 3)
+
+# 可以省略圆括号
+my_tuple = 1, 2, 3
+print(my_tuple)  # 输出 (1, 2, 3)
+
+# 使用内置函数 tuple() 创建元组
+my_tuple = tuple([1, 2, 3])
+print(my_tuple)  # 输出 (1, 2, 3)
+
+# 唯一一个需要额外记住的就是当元组中只有一个元素时，必须要在后面加上一个逗号(可自行用type函数验证他的类型)
+# 这不是一个元组，而是一个整数
+x = (42)
+print(type(x))  # 输出: <class 'int'>
+
+# 这是一个元组
+y = (42,)
+print(type(y))  # 输出: <class 'tuple'>
+
+# 2.访问元组元素：
+my_tuple = (1, 2, 3)
+print(my_tuple[0])  # 输出 1
+print(my_tuple[1:])  # 输出 (2, 3)
+
+
+# 3.元组解包：
+my_tuple = (1, 2, 3)
+print(my_tuple[0])  # 输出 1
+print(my_tuple[1:])  # 输出 (2, 3)
+
+
+# 4.元组拼接：
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+concatenated_tuple = tuple1 + tuple2
+print(concatenated_tuple)  # 输出 (1, 2, 3, 4, 5, 6)
+
+
+# 5.元组遍历：
+my_tuple = (1, 2, 3)
+for item in my_tuple:
+    print(item)
+
+```

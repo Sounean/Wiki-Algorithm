@@ -9,8 +9,8 @@
         <description>行百里者半九十.</description>
 
         <spotlight>
-            <a href="starter.topic" type="start" summary="25年一月底实现能自行刷middle题">时间</a>
-            <a href="starter.topic" type="library" summary="掌握数组、链表、哈希表、字符串、双指针法、栈与队列">知识点</a>
+            <a type="start" summary="25年一月底实现能自行刷middle题">时间</a>
+            <a type="library" summary="掌握数组、链表、哈希表、字符串、双指针法、栈与队列">知识点</a>
         </spotlight>
 
         <primary>
@@ -116,7 +116,7 @@
 <!--            <a href="https://jb.gg/WRS_Slack">public Slack workspace</a>.-->
 <!--            Before you do, please read our <a-->
 <!--                    href="https://www.jetbrains.com/help/writerside/writerside-code-of-conduct.html">Code of conduct</a>.-->
-<!--            We assume that you’ve read and acknowledged it before joining.</p>-->
+<!--            We assume that you've read and acknowledged it before joining.</p>-->
 <!--        <p>You can also always email us at <a href="mailto:writerside@jetbrains.com">writerside@jetbrains.com</a>.</p>-->
 <!--    </chapter>-->
 <!--    <seealso>-->
