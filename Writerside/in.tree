@@ -146,6 +146,7 @@
             </toc-element>
             <toc-element toc-title="枚举">
                 <toc-element topic="P1706.md"/>
+                <toc-element topic="P1618.md"/>
                 <toc-element topic="ABC201.md"/>
                 <toc-element topic="LCouSuanShi.md"/>
                 <toc-element topic="LDaiFenShu.md"/>
