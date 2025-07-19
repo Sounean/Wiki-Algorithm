@@ -10,6 +10,7 @@
 
     <toc-element toc-title="GESP">
         <toc-element topic="gesp_3.md"/>
+        <toc-element topic="gesp_5.md"/>
     </toc-element>
 
     <toc-element toc-title="基础">
@@ -32,6 +33,9 @@
                 <toc-element toc-title="容器">
                     <toc-element topic="Vector-向量.md"/>
                 </toc-element>
+            </toc-element>
+            <toc-element toc-title="高精度">
+                <toc-element topic="add.md"/>
             </toc-element>
             <toc-element toc-title="GESP考级">
                 <toc-element topic="GESP-Level1.md"/>
@@ -158,7 +162,7 @@
                 <toc-element topic="Poj1256.md"/>
             </toc-element>
             <toc-element toc-title="递推与递归">
-
+                <toc-element topic="P1255.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
@@ -178,5 +182,6 @@
     <toc-element toc-title="更新日志">
         <toc-element topic="updateLog.md"/>
     </toc-element>
+
 
 </instance-profile>
