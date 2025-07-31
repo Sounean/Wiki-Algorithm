@@ -8,32 +8,33 @@
 冒泡排序重点是两两比较和交互，这一点要搞清。而如果你能很快的反应过来"我要从大排到小和从小排到大只需要修改哪个符号",就说明已经完全懂了。
 
 
-C++版本:（从后往前比）
+C++版本:（从前往后比）
 ```C++
-void bubbleSort(int data[], int len)
-{
-    for(int i = len - 1; i >= 0; i--) # 1.本质只需要len-1次循环即可（因为确认了len-1个的大小后，最后一个的大小其实也被确认下来了）
-    {
-        int flag = 0;  // flag用来判断是否执行了数据交换的操作
-        for (int j = 0; j < i; j++)   # 2.内循环的比较次数
-        {
-            if (data[j + 1] < data[j])
-            {
-                int tmp;
-                tmp = data[j];
-                data[j] = data[j + 1];
-                data[j + 1] = tmp;
-                flag++;    // 如果执行过数据交换，则flag不为0
+#include <iostream>
+using namespace std;
+ 
+void bubbleSort(int arr[], int n) {
+    for (int i = 0; i < n-1; i++) {        // 外层循环控制排序的轮数
+        for (int j = 0; j < n-i-1; j++) {  // 内层循环进行相邻元素比较和交换
+            if (arr[j] > arr[j+1]) {
+                // 交换两个元素的位置
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
             }
         }
-        
-        /*
-           当执行完一次扫描就判断是否执行过数据交换，如果没有执行过数据
-           交换，则表示此时数列已经是排好序的，不需要打印中间排序的结果。
-        */
-        if (flag == 0)
-            break;
-	}
+    }
+}
+ 
+int main() {
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    bubbleSort(arr, n);
+    // 打印排序后的数组
+    for (int i=0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+    return 0;
 }
 ```
 
