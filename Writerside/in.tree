@@ -130,7 +130,17 @@
                     <toc-element topic="P5721.md"/>
                     <toc-element topic="P1009pre.md"/>
                 </toc-element>
-                <toc-element toc-title="1.2.字符串与文件">
+                <toc-element toc-title="1.2.一二维数组">
+                    <toc-element topic="P2550[AHOI2001]彩票摇奖.md"/>
+                    <toc-element topic="P2615.md"/>
+                    <toc-element topic="P1554.md"/>
+                    <toc-element topic="P2141.md"/>
+                    <toc-element topic="P1614.md"/>
+                    <toc-element topic="P2911.md"/>
+                    <toc-element topic="P1161.md"/>
+                    <toc-element topic="P5741.md"/>
+                </toc-element>
+                <toc-element toc-title="1.3.字符串与文件">
                     <toc-element topic="P6565.md"/>
                 </toc-element>
             </toc-element>
