@@ -10,6 +10,11 @@
 
     <toc-element toc-title="GESP">
         <toc-element topic="gesp_3.md"/>
+            <toc-element toc-title="模拟、枚举算法">
+                <toc-element topic="B3661.md"/>
+                <toc-element topic="P1427.md"/>
+            </toc-element>
+            <toc-element toc-title="字符串"></toc-element>
         <toc-element topic="gesp_5.md"/>
     </toc-element>
 
@@ -139,9 +144,15 @@
                     <toc-element topic="P2911.md"/>
                     <toc-element topic="P1161.md"/>
                     <toc-element topic="P5741.md"/>
+                    <toc-element topic="P5731.md"/>
+                    <toc-element topic="P5732.md"/>
+                    <toc-element topic="P1789.md"/>
+                    <toc-element topic="P1319.md"/>
                 </toc-element>
                 <toc-element toc-title="1.3.字符串与文件">
                     <toc-element topic="P6565.md"/>
+                    <toc-element topic="B3674.md"/>
+                    <toc-element topic="P1200.md"/>
                 </toc-element>
             </toc-element>
             <toc-element toc-title="2.模拟与高精度">

@@ -12,7 +12,6 @@
 
 ## python写法
 ```Python
-
 class QuickSort:
 
     def quick_sort(self, nums):
@@ -28,11 +27,11 @@ class QuickSort:
         if first < last:
             pivot = nums[first]
 
-            i, j = first + 1, last
+            i, j = first, last
             while True:
-                while i <= j and nums[i] <= pivot:
-                    i += 1
                 while i <= j and nums[i] >= pivot:
+                    i += 1
+                while i <= j and nums[j] <= pivot:
                     j -= 1
                 if i <= j:
                     nums[i], nums[j] = nums[j], nums[i]
@@ -43,4 +42,10 @@ class QuickSort:
             self.quick_sort_helper(nums, first, j - 1)
             self.quick_sort_helper(nums, j + 1, last)
         return nums
+
+list1 = [7,1,8,23,4,66,5,4]
+qs = QuickSort()
+qs.quick_sort(list1)
+print(list1)
+
 ```
