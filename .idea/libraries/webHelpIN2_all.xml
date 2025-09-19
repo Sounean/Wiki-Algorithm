@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webHelpIN2-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webHelpIN2-all.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
