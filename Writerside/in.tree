@@ -18,18 +18,20 @@
                 <toc-element topic="B2095.md"/>
                 <toc-element topic="P1420.md"/>
                 <toc-element topic="P5728.md"/>
-                <toc-element topic="B3868.md"/>
                 <toc-element topic="B3926.md"/>
                 <toc-element topic="B3867.md"/>
                 <toc-element topic="B3842.md"/>
             </toc-element>
             <toc-element toc-title="字符串">
+                <toc-element topic="B3868.md"/>
                 <toc-element topic="B2120.md"/>
                 <toc-element topic="B2110.md"/>
                 <toc-element topic="B3769.md"/>
                 <toc-element topic="B3956.md"/>
                 <toc-element topic="B3843.md"/>
                 <toc-element topic="B4003.md"/>
+                <toc-element topic="B4039.md"/>
+                <toc-element topic="B4262.md"/>
             </toc-element>
         <toc-element topic="gesp_5.md"/>
     </toc-element>
