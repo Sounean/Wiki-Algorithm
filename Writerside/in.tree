@@ -154,6 +154,11 @@
                     <toc-element topic="P1009pre.md"/>
                 </toc-element>
                 <toc-element toc-title="1.2.一二维数组">
+                    <toc-element topic="BY1272.md"/>
+                    <toc-element topic="BY1274.md"/>
+                    <toc-element topic="BY1403.md"/>
+                    <toc-element topic="BY1188.md"/>
+                    <toc-element topic="BY1210.md"/>
                     <toc-element topic="P2550[AHOI2001]彩票摇奖.md"/>
                     <toc-element topic="P2615.md"/>
                     <toc-element topic="P1554.md"/>
