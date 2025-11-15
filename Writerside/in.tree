@@ -117,16 +117,6 @@
 <!--            <toc-element toc-title="暴力枚举"></toc-element>-->
 
             <toc-element toc-title="递推与递归">
-                <toc-element topic="DFOJ1082.md"/>
-                <toc-element topic="DFOJ1148.md"/>
-                <toc-element topic="DFOJ1216.md"/>
-                <toc-element topic="DFOJ1410.md"/>
-                <toc-element topic="DFOJ1298.md"/>
-                <toc-element topic="DFOJ1374.md"/>
-                <toc-element topic="DFOJ1368.md"/>
-                <toc-element topic="DFOJ1367.md"/>
-                <toc-element topic="DFOJ1539.md"/>
-                <toc-element topic="DFOJ1366.md"/>
                 <toc-element topic="Recurrence-Algorithm.md"/>
                 <toc-element topic="Recursive-Algorithm.md"/>
             </toc-element>
@@ -224,6 +214,16 @@
             </toc-element>
             <toc-element toc-title="递推与递归">
                 <toc-element topic="P1255.md"/>
+                <toc-element topic="DFOJ1082.md"/>
+                <toc-element topic="DFOJ1148.md"/>
+                <toc-element topic="DFOJ1216.md"/>
+                <toc-element topic="DFOJ1410.md"/>
+                <toc-element topic="DFOJ1298.md"/>
+                <toc-element topic="DFOJ1374.md"/>
+                <toc-element topic="DFOJ1368.md"/>
+                <toc-element topic="DFOJ1367.md"/>
+                <toc-element topic="DFOJ1539.md"/>
+                <toc-element topic="DFOJ1366.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
