@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4e03b4f-a1e1-4050-92ea-8a0731f772fd" name="更改" comment="给部分题目的题解给删掉">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B2110.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B2110.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B2120.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B2120.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B3769.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B3769.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4003.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4003.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4039.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4039.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4262.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4262.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sounean&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sounean/Wiki-Algorithm.git&quot;,
+    &quot;accountId&quot;: &quot;50bca733-f363-42cb-9f4d-fb1f8fedcaab&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Writerside/in.tree" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Writerside/topics/算法/入门/递推与递归/Recursive-Algorithm.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="InstanceColorv3">
+    <option name="map">
+      <map>
+        <entry key="$PROJECT_DIR$/Writerside/in.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="1" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="60" />
+                  <option name="darkBlue" value="60" />
+                  <option name="darkGreen" value="68" />
+                  <option name="darkRed" value="206" />
+                  <option name="green" value="61" />
+                  <option name="red" value="219" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="66" />
+                  <option name="darkBlue" value="65" />
+                  <option name="darkGreen" value="126" />
+                  <option name="darkRed" value="231" />
+                  <option name="green" value="142" />
+                  <option name="red" value="255" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="32v8ZT0gmkKYxwYRwZcWgWEuJWq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;Writerside.Web Archive (in).executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WriterSideProj/AlgorithmProj/Writerside/topics/GESP/GESP模拟题/模拟、枚举算法&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\GESP\GESP模拟题\模拟、枚举算法" />
+      <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\算法题库\基础\5.递推与递归" />
+      <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\算法题库\基础\1.常用基础\1.2.一二维数组" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\GESP\GESP模拟题\字符串" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Web Archive (in)" type="StardustRunConfiguration" factoryName="save-as-zip">
+      <option name="folderPath" value="$PROJECT_DIR$" />
+      <option name="instanceName" value="Sounean's Algorithm Training Camp" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c4e03b4f-a1e1-4050-92ea-8a0731f772fd" name="更改" comment="" />
+      <created>1758289741406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758289741406</updated>
+      <workItem from="1758289743255" duration="466000" />
+      <workItem from="1758326720322" duration="6852000" />
+      <workItem from="1761099378372" duration="43000" />
+      <workItem from="1761187394134" duration="608000" />
+      <workItem from="1761631343005" duration="1349000" />
+      <workItem from="1761793726326" duration="47000" />
+      <workItem from="1762152466814" duration="95000" />
+      <workItem from="1762495727809" duration="621000" />
+      <workItem from="1762597320260" duration="599000" />
+      <workItem from="1762736883842" duration="4792000" />
+      <workItem from="1763188783177" duration="310000" />
+      <workItem from="1763346711332" duration="37000" />
+      <workItem from="1763949631341" duration="4000" />
+      <workItem from="1764741655023" duration="3833000" />
+      <workItem from="1765073831115" duration="1153000" />
+    </task>
+    <task id="LOCAL-00001" summary="1.新增gesp3级考点">
+      <option name="closed" value="true" />
+      <created>1758289953049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758289953049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.新增gesp3级考点">
+      <option name="closed" value="true" />
+      <created>1758289965755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758289965755</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.新增gesp3级考点">
+      <option name="closed" value="true" />
+      <created>1758333816663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758333816663</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.新增二维数组 入门级难度题">
+      <option name="closed" value="true" />
+      <created>1761632576805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761632576805</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.新增二维数组 入门级难度题">
+      <option name="closed" value="true" />
+      <created>1763022739731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763022739731</updated>
+    </task>
+    <task id="LOCAL-00006" summary="递推题目放到正确的目录下">
+      <option name="closed" value="true" />
+      <created>1763188888672</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763188888672</updated>
+    </task>
+    <task id="LOCAL-00007" summary="给部分题目的题解给删掉">
+      <option name="closed" value="true" />
+      <created>1764752601488</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764752601488</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.新增gesp3级考点" />
+    <MESSAGE value="递推题目" />
+    <MESSAGE value="1.新增二维数组 入门级难度题" />
+    <MESSAGE value="递推题目放到正确的目录下" />
+    <MESSAGE value="给部分题目的题解给删掉" />
+    <option name="LAST_COMMIT_MESSAGE" value="给部分题目的题解给删掉" />
+  </component>
+</project>
