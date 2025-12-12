@@ -97,6 +97,7 @@
         <toc-element toc-title="线性表">
         </toc-element>
         <toc-element toc-title="二叉树">
+            <toc-element topic="Binary-Tree.md"/>
         </toc-element>
         <toc-element toc-title="集合">
         </toc-element>

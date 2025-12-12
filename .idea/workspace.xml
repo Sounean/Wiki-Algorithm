@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cc838996-bba0-475c-82d1-bfc057b5f4ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AlgorithmProj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/webHelpIN2_all.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B2110.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B2110.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B2120.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B2120.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B3769.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B3769.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4003.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4003.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4039.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4039.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4262.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/GESP/GESP模拟题/字符串/B4262.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webHelpIN2-all.zip" beforeDir="false" afterPath="$PROJECT_DIR$/webHelpIN2-all.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/数据结构/二叉树/Binary-Tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/in.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/in.tree" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sounean"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sounean&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sounean/Wiki-Algorithm.git",
-    "accountId": "cca21f91-5de4-4284-807f-d8c980e6fcd9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sounean/Wiki-Algorithm.git&quot;,
+    &quot;accountId&quot;: &quot;cca21f91-5de4-4284-807f-d8c980e6fcd9&quot;
   }
-}]]></component>
+}</component>
   <component name="InstanceColorv3">
     <option name="map">
       <map>
@@ -70,10 +62,10 @@
       </map>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="36ePmC79hqA5u38f8ukfUcR3oUA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -85,16 +77,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "develop",
+    "last_opened_file_path": "D:/WriterSideProj/AlgorithmProj/Writerside/topics/数据结构/二叉树",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\数据结构\二叉树" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Web Archive (in)" type="StardustRunConfiguration" factoryName="save-as-zip">
       <option name="folderPath" value="$PROJECT_DIR$" />
-      <option name="instanceId" value="in" />
       <option name="instanceName" value="Sounean's Algorithm Training Camp" />
-      <option name="moduleName" value="Writerside" />
       <method v="2" />
     </configuration>
   </component>
