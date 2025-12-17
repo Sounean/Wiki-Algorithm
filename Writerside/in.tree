@@ -71,6 +71,9 @@
     <toc-element toc-title="算法中的数学">
         <toc-element topic="High-Precision.md"/>
         <toc-element topic="Base-Conversion.md"/>
+        <toc-element toc-title="初等数论">
+            <toc-element topic="Prime_Composite.md"/>
+        </toc-element>
     </toc-element>
 
     <toc-element toc-title="数据结构">

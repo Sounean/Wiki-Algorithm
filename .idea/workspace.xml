@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc838996-bba0-475c-82d1-bfc057b5f4ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/数据结构/二叉树/Binary-Tree.md" afterDir="false" />
+    <list default="true" id="cc838996-bba0-475c-82d1-bfc057b5f4ee" name="Changes" comment="新增二叉树">
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/算法中的数学/初等数论/Prime_Composite.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/in.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/in.tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webHelpIN2-all.zip" beforeDir="false" afterPath="$PROJECT_DIR$/webHelpIN2-all.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Sounean/Wiki-Algorithm.git&quot;,
-    &quot;accountId&quot;: &quot;cca21f91-5de4-4284-807f-d8c980e6fcd9&quot;
+    &quot;accountId&quot;: &quot;50bca733-f363-42cb-9f4d-fb1f8fedcaab&quot;
   }
 }</component>
   <component name="InstanceColorv3">
@@ -62,6 +63,9 @@
       </map>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -74,10 +78,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "Writerside.Web Archive (in).executor": "Run",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "D:/WriterSideProj/AlgorithmProj/Writerside/topics/数据结构/二叉树",
+    "last_opened_file_path": "D:/WriterSideProj/AlgorithmProj/Writerside/topics/算法中的数学/初等数论",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +95,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\算法中的数学\初等数论" />
       <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\数据结构\二叉树" />
     </key>
   </component>
@@ -101,11 +109,12 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cc838996-bba0-475c-82d1-bfc057b5f4ee" name="Changes" comment="" />
@@ -114,10 +123,48 @@
       <option name="presentableId" value="Default" />
       <updated>1765364221492</updated>
       <workItem from="1765364223206" duration="36000" />
+      <workItem from="1765958104398" duration="57000" />
+      <workItem from="1765958172371" duration="4069000" />
     </task>
+    <task id="LOCAL-00001" summary="新增二叉树">
+      <option name="closed" value="true" />
+      <created>1765501101466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765501101466</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="company/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增二叉树" />
   </component>
 </project>
