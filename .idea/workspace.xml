@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc838996-bba0-475c-82d1-bfc057b5f4ee" name="Changes" comment="新增数论" />
+    <list default="true" id="cc838996-bba0-475c-82d1-bfc057b5f4ee" name="Changes" comment="新增数论">
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/GESP/level3_mock_exam_paper.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/in.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/in.tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webHelpIN2-all.zip" beforeDir="false" afterPath="$PROJECT_DIR$/webHelpIN2-all.zip" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +87,7 @@
     "WebServerToolWindowFactoryState": "false",
     "Writerside.Web Archive (in).executor": "Run",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "D:/WriterSideProj/AlgorithmProj/Writerside/topics/GESP/ysc",
+    "last_opened_file_path": "D:/WriterSideProj/AlgorithmProj/Writerside/topics/GESP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +98,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\GESP" />
       <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\GESP\ysc" />
       <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\算法中的数学\初等数论" />
       <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\数据结构\二叉树" />
@@ -126,7 +132,7 @@
       <workItem from="1765958172371" duration="4883000" />
       <workItem from="1766021607374" duration="4031000" />
       <workItem from="1766131133085" duration="23000" />
-      <workItem from="1766281294868" duration="1068000" />
+      <workItem from="1766281294868" duration="2531000" />
     </task>
     <task id="LOCAL-00001" summary="新增二叉树">
       <option name="closed" value="true" />
@@ -152,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766281990107</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增数论">
+      <option name="closed" value="true" />
+      <created>1766282541726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766282541726</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

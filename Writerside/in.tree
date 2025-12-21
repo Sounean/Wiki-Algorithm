@@ -9,6 +9,7 @@
     <toc-element topic="starter.topic"/>
 
     <toc-element toc-title="GESP">
+        <toc-element topic="level3_mock_exam_paper.md"/>
         <toc-element toc-title="ysc">
             <toc-element topic="analysis_report.md"/>
         </toc-element>
