@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc838996-bba0-475c-82d1-bfc057b5f4ee" name="Changes" comment="新增二叉树">
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/算法中的数学/初等数论/Prime_Composite.md" afterDir="false" />
+    <list default="true" id="cc838996-bba0-475c-82d1-bfc057b5f4ee" name="Changes" comment="新增数论">
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/GESP/ysc/analysis_report.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/in.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/in.tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/算法中的数学/初等数论/Prime_Composite.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/算法中的数学/初等数论/Prime_Composite.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webHelpIN2-all.zip" beforeDir="false" afterPath="$PROJECT_DIR$/webHelpIN2-all.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,9 @@
     &quot;accountId&quot;: &quot;50bca733-f363-42cb-9f4d-fb1f8fedcaab&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Writerside/topics/算法中的数学/初等数论/Prime_Composite.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="InstanceColorv3">
     <option name="map">
       <map>
@@ -84,7 +88,7 @@
     "WebServerToolWindowFactoryState": "false",
     "Writerside.Web Archive (in).executor": "Run",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "D:/WriterSideProj/AlgorithmProj/Writerside/topics/算法中的数学/初等数论",
+    "last_opened_file_path": "D:/WriterSideProj/AlgorithmProj/Writerside/topics/GESP/ysc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,6 +99,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\GESP\ysc" />
       <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\算法中的数学\初等数论" />
       <recent name="D:\WriterSideProj\AlgorithmProj\Writerside\topics\数据结构\二叉树" />
     </key>
@@ -124,7 +129,10 @@
       <updated>1765364221492</updated>
       <workItem from="1765364223206" duration="36000" />
       <workItem from="1765958104398" duration="57000" />
-      <workItem from="1765958172371" duration="4069000" />
+      <workItem from="1765958172371" duration="4883000" />
+      <workItem from="1766021607374" duration="4031000" />
+      <workItem from="1766131133085" duration="23000" />
+      <workItem from="1766281294868" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="新增二叉树">
       <option name="closed" value="true" />
@@ -134,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765501101466</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增数论">
+      <option name="closed" value="true" />
+      <created>1765962444772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765962444772</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +167,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="company/develop" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -165,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增二叉树" />
+    <MESSAGE value="新增数论" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增数论" />
   </component>
 </project>
