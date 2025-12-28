@@ -34,5 +34,34 @@ def insert_sort(nums):
 
 ## c++写法
 ```C++
-.
+#include <iostream>
+#include <vector>
+using namespace std;
+
+// 基础插入排序
+void insertionSort(vector<int>& arr) {
+    int n = arr.size();
+    
+    // 从第二个元素开始（第一个元素视为已排序）
+    for (int i = 1; i < n; i++) {
+        int key = arr[i];  // 当前要插入的元素
+        int j = i - 1;
+        
+        // 将比key大的元素向后移动
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        
+        // 插入key到正确位置
+        arr[j + 1] = key;
+    }
+}
 ```
+
+## 复杂度分析
+
+- 最坏情况O(n²)   --> 数组完全逆序
+- 最好情况O(n)    --> 数组已有序
+- 平均情况O(n²) 
+- 空间复杂度 O(1) -->原地排序
